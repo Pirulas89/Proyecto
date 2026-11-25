@@ -20,7 +20,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "node --test src/pokerRules.test.js",
-    "start": "nodemon app.js"
+    "start": "nodemon main.js"
   },
   "dependencies": {
     "detect-libc": "^2.1.2",
@@ -34,6 +34,7 @@
     "tinyglobby": "^0.2.17"
   },
   "devDependencies": {
+    "nodemon": "^3.1.14",
     "vite": "^8.0.5"
   }
 }
