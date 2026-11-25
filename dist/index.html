@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Juega Texas Hold'em contra rivales simulados en una mesa de poker interactiva." />
+    <title>Royal Poker Club · Texas Hold'em</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@700;800&display=swap" rel="stylesheet" />
+    <script type="module" crossorigin src="./assets/index-BO0wkV9D.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DVv_k0it.css">
+  </head>
+  <body>
+    <nav class="game-switcher" aria-label="Cambiar juego">
+      <span class="switcher-label">ROYAL CLUB</span>
+      <div class="switcher-options">
+        <button type="button" class="switcher-button" data-game="poker" aria-pressed="false">♠ <span>Póker</span></button>
+        <button type="button" class="switcher-button" data-game="roulette" aria-pressed="false">◉ <span>Ruleta</span></button>
+      </div>
+    </nav>
+    <div id="app">
+      <div id="poker-game"></div>
+      <div id="roulette-game" hidden></div>
+    </div>
+  </body>
+</html>
